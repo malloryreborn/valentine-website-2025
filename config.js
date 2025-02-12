@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['🤍', '🖤', '🤍', '🖤', '🤍'],  // Heart emojis
+        hearts: ['🤍', '🤍', '🤍', '🤍', '🤍'],  // Heart emojis
         bears: ['🐼', '🐼']                       // Cute bear emojis
     },
 
@@ -30,7 +30,7 @@ const CONFIG = {
         second: {
             text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next 🐼"                                         // Text for the next button
+            nextBtn: "Next 🤍"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2025? 🐼🤍", // The big question!
@@ -43,7 +43,7 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🐼🤍",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🐼🖤",              // Shows when they go past 1000%
+        high: "To infinity and beyond! 🤍🤍",              // Shows when they go past 1000%
         normal: "And beyond! 🤍"                           // Shows when they go past 100%
     },
 
@@ -51,17 +51,17 @@ const CONFIG = {
     celebration: {
         title: "Yaya! I'm the luckiest person in the world! 🐼🤍",
         message: "Now come get your gift, bend over.",
-        emojis:"🤍🖤🤍🖤🤍🖤🤍🖤🤍"  // These will bounce around
+        emojis:"🤍🤍🤍🤍🤍"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#000000",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#000000",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#000000",     // Button color (should stand out against the background)
-        buttonHover: "#ffff",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ffff"             // Text color (make sure it's readable!)
+        backgroundStart: "#F5EFFF",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#E5D9F2",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#CDC1FF",     // Button color (should stand out against the background)
+        buttonHover: "#A294F9",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#F5EFFF"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
